@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;   
+  }
+
+.row{
+    height: 25vh;
+
+  }
+
+[class*="col"]{
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+}
